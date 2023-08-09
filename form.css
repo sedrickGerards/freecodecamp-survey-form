@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(153, 219, 245); */
+    background-image: url("https://media.istockphoto.com/id/1058305100/photo/paying-attention-to-some-paperwork.webp?b=1&s=170667a&w=0&k=20&c=CPHMlzj-pQf3RsXV3rT6k15U15V1MlR1LwaG39hXOOk="); background-repeat:no-repeat;  ;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+h1, p{
+    color: whitesmoke;
+}
+
+
+form{
+    background-color: #fff;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.4);
+    border-radius: 2px;
+    max-width: 800px;
+    margin:  auto;
+    padding: 30px 20px;
+    opacity: 0.88
+   
+}
+
+.form-control {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-control label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input, 
+.form-control select, 
+.form-control textarea{
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    min-height: 10px;
+    width: 100%;   
+}
+
+.form-control input[type='radio'], 
+.form-control input[type="checkbox"] {
+ 
+    display: inline-block;
+    width: auto;
+}
+button{
+    align-content: center;
+    background-color:rgb(141, 223, 255);
+    border: 1px solid black;
+    border-radius: 22px;
+    font-family: inherit;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding: 10px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+
